@@ -30,15 +30,12 @@ function App() {
   };
 
   return (
-    // The 'min-h-screen' class has been removed from this div to fix the empty space issue.
     <div className="bg-gray-100">
       <Navbar activeSection={activeSection} onNavigate={handleNavigate} />
-      
-      <main>
-        {renderSection()}
-      </main>
+      <main className="pt-[4.5rem]">{renderSection()}</main>
     </div>
   );
 }
 
 export default App;
+
