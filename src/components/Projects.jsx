@@ -1,13 +1,17 @@
 // src/components/Projects.jsx
 
 import React from 'react';
+import myPointsAppImg from '../assets/my-points-app.png';
+import realtorHomeImg from '../assets/realtorHome.png';
+import recommenderSystemImg from '../assets/recommenderSystem.png';
+
 
 // Your actual project data from your resume.
 const projectData = [
   {
     title: "Full-Stack Realtor Website (MERN)",
     description: "Engineered and deployed a full-stack property listing platform using the MERN stack. Features a secure RESTful API with JWT-based authentication and a dynamic frontend.",
-    imageUrl: "../realtorHome.png",
+    imageUrl: realtorHomeImg,
     liveLink: "https://flipr-fullstack-app.onrender.com/", // TODO: Add link to the live project on Render
     adminLink: "https://flipr-fullstack-app.onrender.com/admin",
     codeLink: "https://github.com/es-devendraa/flipr_fullstack-app"  // TODO: Add link to the GitHub repo
@@ -15,14 +19,14 @@ const projectData = [
   {
     title: "Movie Recommender System",
     description: "Developed a responsive UI with JavaScript, HTML, and CSS that consumes a Python/Flask backend via the Fetch API to display personalized movie recommendations.",
-    imageUrl: "../recommenderSystem.png",
+    imageUrl: recommenderSystemImg,
     liveLink: "https://project1-movie-recommendation.onrender.com/", // TODO: Add link to the live project
     codeLink: "https://github.com/es-devendraa/Project1---Movie-Recommendation"  // TODO: Add link to the GitHub repo
   },
   {
     title: "Full-Stack Payment System",
     description: "Completed as part of the 100xDevs training, this prototype demonstrates a full-stack payment system, showcasing skills in user authentication and database design.",
-    imageUrl: "../my-points-app.png",
+    imageUrl: myPointsAppImg,
     liveLink: "#", // TODO: Add link to the live project
     codeLink: "https://github.com/es-devendraa/my-points-app"  // TODO: Add link to the GitHub repo
   }
