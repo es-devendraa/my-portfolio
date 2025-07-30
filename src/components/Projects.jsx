@@ -22,7 +22,7 @@ const projectData = [
   {
     title: "Full-Stack Payment System",
     description: "Completed as part of the 100xDevs training, this prototype demonstrates a full-stack payment system, showcasing skills in user authentication and database design.",
-    imageUrl: "https://placehold.co/600x400/1e40af/ffffff?text=Payment+App",
+    imageUrl: "../my-points-app.png",
     liveLink: "#", // TODO: Add link to the live project
     codeLink: "https://github.com/es-devendraa/my-points-app"  // TODO: Add link to the GitHub repo
   }
